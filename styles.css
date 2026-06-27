@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Lora', serif;
     margin: 0;
-    color: white;
+    color: #E8DFC8;
+    background-color: #3F4A12;
 }
 
 /* Header */
@@ -14,24 +17,26 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1F2937;
+    background-color: #3F4A12;
     padding: 0 30vh;
     height: 50px;
 }
 
 .header__logo {
     font-weight: bold;
-    font-size: 24px;
-    color: #F9FAF8;
+    font-size: 32px;
+    font-style: italic;
 }
 
 .header__links ul {
     list-style: none;
     display: flex;
-    gap: 16px;
+    font-weight: 500;
+    font-size: 18px;
+    gap: 24px;
 }
 .header__links a {
-    color: white;
+    color: inherit;
     text-decoration: none;
 }
 
@@ -44,7 +49,7 @@ body {
     gap: 48px;
     padding: 0 30vh;
     height: 450px;
-    background-color: #1F2937;
+    background-color: #3F4A12;
 }
 
 .hero__left {
@@ -57,21 +62,19 @@ body {
     height: 300px;
 }
 .hero__main {
-    font-size: 48px;
-    font-weight: 900;
-    color: #F9FAF8;
+    font-size: 52px;
+    font-weight: bold;
+    font-style: italic;
 }
 .hero__secondary {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #D8CFB8;
 }
 .hero__button {
-    background-color: #3882F6;
-    border: 1px solid #3882F6;
-    color: white;
     font-weight: bold;
     font-size: large;
     border-radius: 8px;
+    border: 3px solid #B9653E;
     padding: 8px 32px;
 }
 
@@ -95,6 +98,7 @@ body {
     align-items: center;
     gap: 48px;
     padding: 48px 25vh;
+    background-color: #30390E;
 }
 
 .information__container {
@@ -111,40 +115,39 @@ body {
     height: 300px;
 }
 .information__item--image {
-    border: 4px solid #3882F6;
+    border: 2px solid;
     border-radius: 16px;
     height: 180px;
 }
 .information__item--text {
-    color: #555;
+    color: #D8CFB8;
     text-align: center;
+    font-size: 18px;
 }
 
 .information__main {
-    color: #1F2937;
-    font-size: 36px;
-    font-weight: 900;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 /* Quote */
 
 .quote {
-    background-color: #E5E7EB;
+    background-color: #6A7442;
     padding: 100px 35vh;
 }
 
 .quote__text {
-    color: #1F2937;
     font-size: 36px;
-    font-weight: 300;
+    font-weight: 500;
     font-style: italic;
     text-align: left;
     margin-bottom: 16px;
 }
 .quote__author {
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
+    color: #D8CFB8;
+    font-size: 20px;
+    font-weight: 300;
     text-align: right;
 }
 
@@ -156,12 +159,12 @@ body {
     align-items: center;
     padding: 48px 10vh;
     margin: 96px 30vh;
-    background-color: #3882F6;
+    background-color: #6A7442;
     border-radius: 12px;
 }
 
 .cta__main {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
 }
 .cta__secondary {
@@ -170,9 +173,7 @@ body {
 }
 
 .cta__button {
-    background-color: #3882F6;
-    border: 3px solid white;
-    color: white;
+    border: 3px solid #B9653E;
     font-weight: bold;
     font-size: large;
     border-radius: 8px;
@@ -183,8 +184,24 @@ body {
 
 .footer {
     height: 100px;
-    background-color: #1F2937;
+    background-color: #3F4A12;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Some adjustments */
+
+button {
+    background-color: #B9653E;
+    color: #E8DFC8;
+    border: 0 #B9653E;
+}
+
+.header__logo,
+.hero__main,
+.information__main,
+.quote__text,
+.cta__main {
+    font-family: 'Cormorant Garamond', serif;
 }
