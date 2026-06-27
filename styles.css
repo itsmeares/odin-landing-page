@@ -41,14 +41,20 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 48px;
     padding: 0 25vh;
     height: 400px;
     background-color: #1F2937;
 }
 
 .hero__left {
-    flex: 1;
-    padding-right: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 12px;
+    width: 40%;
+    height: 300px;
 }
 .hero__main {
     font-size: 48px;
@@ -58,7 +64,6 @@ body {
 .hero__secondary {
     font-size: 18px;
     color: #E5E7EB;
-    margin: 12px 0;
 }
 .hero__button {
     background-color: #3882F6;
@@ -70,10 +75,14 @@ body {
     padding: 8px 32px;
 }
 
+.hero__right {
+    width: 60%;
+    height: 300px;
+}
 .hero__image {
-    width: 50%;
-    max-height: 350px;
-    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
     object-fit: cover;
 }
 
