@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
@@ -73,3 +77,45 @@ body {
     border-radius: 8px;
     object-fit: cover;
 }
+
+/* Information */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+    padding: 48px 25vh;
+}
+
+.information__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+    padding: 0 10vh;
+}
+.information__item {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 300px;
+}
+.information__item--image {
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+    height: 180px;
+}
+.information__item--text {
+    color: #555;
+    text-align: center;
+}
+
+.information__main {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+/* Quote */
