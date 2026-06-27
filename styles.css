@@ -147,3 +147,34 @@ body {
     font-weight: bold;
     text-align: right;
 }
+
+/* CTA */
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 10vh;
+    margin: 96px 30vh;
+    background-color: #3882F6;
+    border-radius: 12px;
+}
+
+.cta__main {
+    font-size: 24px;
+    font-weight: bold;
+}
+.cta__secondary {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.cta__button {
+    background-color: #3882F6;
+    border: 3px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
