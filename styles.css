@@ -15,7 +15,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 0 25vh;
+    padding: 0 30vh;
     height: 50px;
 }
 
@@ -42,8 +42,8 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 48px;
-    padding: 0 25vh;
-    height: 400px;
+    padding: 0 30vh;
+    height: 450px;
     background-color: #1F2937;
 }
 
