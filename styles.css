@@ -69,6 +69,7 @@ body {
 
 .hero__image {
     width: 50%;
+    max-height: 350px;
     border-radius: 8px;
     object-fit: cover;
 }
